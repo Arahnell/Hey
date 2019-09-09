@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset="utf-8" />
+   <title> Inscription </title>
+   </head>
+
+
+<body>
+<strong> Inscription </strong>
+<form name="mon-formulaire1" action="page-envoi.html" method="get">
+<p>
+   <input type="radio" name="civi" value="Mme" /> Madame
+   <input type="radio" name="civi" value="Mr" /> Monsieur
+</p>
+<p>
+    Prénom :<br />
+   <input type="text" name="prenom" value="" />
+</p>
+<p>
+   Nom :<br />
+   <input type="text" name="nom" value="" />
+</p>
+<p>
+   Mot de passe :<br />
+   <input type="password" name="passe" value="" />
+</p>
+<p>
+   Niveau <br />
+   <select name="profil">
+      <option value="1" selected="selected">B1</option>
+      <option value="2" >B2</option>
+      <option value="3">B3</option>
+      <option value="4">I1</option>
+      <option value="5">I2</option>
+   </select>
+</p>
+</body>
+</html>
